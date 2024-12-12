@@ -1,0 +1,62 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; 
+    color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+/* Stile immagine */
+img {
+    vertical-align: middle;
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+/* Effetto hover sulla lampadina */
+img:hover {
+    transform: scale(1.1); 
+    opacity: 0.9; 
+}
+
+/* Stile bottone */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+/* Effetto hover sul bottone */
+button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+/* Effetto Click */
+button:active {
+    background-color: #003f7f; 
+    transform: scale(0.98); 
+}
+
+/* Classe per nascondere */
+.d-none {
+    display: none;
+}
